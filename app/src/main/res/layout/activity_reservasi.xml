@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF0F5"
+    tools:context=".ReservasiActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFF0F5"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/etNamaLaundry"
+            android:layout_width="wrap_content"
+            android:layout_height="160dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+        <TextView
+            android:id="@+id/textnama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="108dp"
+            android:layout_toStartOf="@+id/etNamaPelanggan"
+            android:layout_toLeftOf="@+id/etNamaPelanggan"
+            android:text="NAMA"
+            tools:text="NAMA" />
+
+        <EditText
+            android:id="@+id/etNamaPelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/textnama"
+            android:layout_alignBottom="@id/textnama"
+            android:layout_centerHorizontal="true"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textalm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/etAlamatPelanggan"
+            android:layout_alignBottom="@id/etAlamatPelanggan"
+            android:layout_aligntParentStart="true"
+            android:layout_aligntParentLeft="true"
+            android:text="ALAMAT"
+            tools:text="ALAMAT" />
+
+        <EditText
+            android:id="@+id/etAlamatPelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textalm"
+            android:layout_alignStart="@id/textalm"
+            android:layout_alignLeft="@id/textalm"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textnohp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/etNoHP"
+            android:layout_alignBottom="@id/etNoHP"
+            android:layout_aligntParentStart="true"
+            android:layout_aligntParentLeft="true"
+            android:layout_toStartOf="@+id/etNoHP"
+            android:layout_toLeftOf="@+id/etNoHP"
+            android:text="No HP"
+            tools:text="No HP" />
+
+        <EditText
+            android:id="@+id/etNoHP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textnohp"
+            android:layout_alignStart="@id/textnohp"
+            android:layout_alignLeft="@id/textnohp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnKirimLokPel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/etNoHP"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="Kirim Lokasi" />
+
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="KIRIM" />
+    </RelativeLayout>
+
+</RelativeLayout>

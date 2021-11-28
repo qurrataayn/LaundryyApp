@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DaftarClient">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F5DC"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <TextView
+            android:id="@+id/textVhelp"
+            android:layout_width="76dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="200dp"
+            android:drawableTop="@drawable/help"
+            android:text="HELP"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="264dp" />
+
+        <TextView
+            android:id="@+id/txtpelanggan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/textVhelp"
+            android:layout_alignStart="@+id/textVhelp"
+            android:layout_alignLeft="@+id/textVhelp"
+            android:layout_marginBottom="80dp"
+            android:drawableTop="@drawable/laundry"
+            android:text="CLIENT"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="140dp" />
+
+        <TextView
+            android:id="@+id/textDaftar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/txtpelanggan"
+            android:layout_alignStart="@+id/txtpelanggan"
+            android:layout_alignLeft="@+id/txtpelanggan"
+            android:layout_marginBottom="80dp"
+            android:drawableTop="@drawable/admin"
+            android:text="DAFTAR"
+            android:textAlignment="center"
+            tools:layout_editor_absoluteX="89dp"
+            tools:layout_editor_absoluteY="127dp" />
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

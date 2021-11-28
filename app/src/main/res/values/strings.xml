@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">laundryyy</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="Header">Langkah-Langkah Pengoprasian APP Laundry</string>
+    <string name="description1">1. Jika anda ingin menjadi admin / pemilik laundry maka anda harus mendaftar dengan cara Klik ADMIN kemudian isi Email dan Password kemudian Klik daftar, setelah sukses langsung klik login. Setelah itu akan masuk pada form Menu lagi yaitu menu untuk admin, Kemudian Klik daftar, setelah keluar tampilan form untuk daftar silahkan isi sesuai data diri anda.
+        2. Jika anda sudah mendaftar tinggal masuk ke admin, masukan Email dan pasword kemudian langsung login, tidak usah mendaftar lagi, kemudian setelah login bisa melihat data client yang masuk, dengan cara Klik CLIENT.
+        3. jika anda sebagai client yang mau pesan jemput pakaian untuk laundry, anda tinggal klik laundry, akan muncul map, kemudian ada lokasi tempat laundry yang di tunjukan dengan marker warna kuning, kemudian anda klik salah satu marker untuk melihat detail data alamat laundri. Dan klik 2X jika anda inggin mendaftar sebagai clientnya, setelah itu isi data diri kemudian kirim.
+        4. Jika anda ingin mengetahui progres laundry baju anda tinggal klik CEK LAUNDRY kemudian masukan data nama sesuai pada saat mendaftar menjadi client.</string>
+</resources>

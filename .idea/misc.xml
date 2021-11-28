@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_about.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_cek_laundry.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_daftar.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_daftar_admin.xml" value="0.1" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_daftar_client.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_daftar_pelanggan.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_help.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_home.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_info_tarif.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_laundry.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_login_daftar.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_maps.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_maps_laundry.xml" value="0.22" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_maps_posisi_pelanggan.xml" value="0.184375" />
+        <entry key="..\:/Users/windows/AndroidStudioProjects/laundryyy/app/src/main/res/layout/activity_reservasi.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
